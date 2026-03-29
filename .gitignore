@@ -19,5 +19,6 @@ AGENTS.md
 # Experimental code/artifacts
 dev/
 
-# Results file
+# Results and audit files (per-session, not committed)
 results.tsv
+audit.jsonl
