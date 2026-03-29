@@ -51,8 +51,8 @@ def validate_proposal(proposal: ExperimentProposal) -> list[str]:
 
 
 def proposal_to_commit_message(proposal: ExperimentProposal) -> str:
-    """Generate a structured git commit message from a proposal."""
-    lines = [f"exp: {proposal.description}"]
+    """Generate a commitlint-formatted git commit message from a proposal."""
+    lines = [f"feat(exp): {proposal.description}"]
     lines.append("")
     lines.append(f"Hypothesis: {proposal.hypothesis}")
     lines.append(f"Prediction: {proposal.prediction}")

@@ -201,9 +201,9 @@ Based on the Analyst and Historian phases, propose your next experiment:
 
 2. **Apply your changes** to `train.py`. Make exactly the changes described in your proposal.
 
-3. **git commit** with a structured message:
+3. **git commit** with a commitlint-formatted message:
    ```
-   git commit -am "exp: <description>
+   git commit -am "feat(exp): <description>
 
    Hypothesis: <your hypothesis>
    Prediction: <your prediction>"
